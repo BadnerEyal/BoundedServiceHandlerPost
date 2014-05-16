@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">l
+
+
+     <TextView
+                android:padding="2dp"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Player Bounded Service" />
+            
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal"
+	            android:padding="2dp"
+	            android:weightSum="1" >
+	
+	            <Button
+	                android:id="@+id/serviceStartButton"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:text="Start" />
+	
+	            <Button
+	                android:id="@+id/serviceStopButton"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="0.5"
+	                android:text="Stop" />
+	        </LinearLayout>
+        
+      
+    </LinearLayout>
