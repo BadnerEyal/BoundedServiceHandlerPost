@@ -23,6 +23,10 @@ In this example we'll run code using tube Post
 
 BoundedServiceHandlerPost
 
+Comment: 
+This example involves reading device folders songs 
+
+
 דוגמא להתחברות לשירות.
 
 עם הנדלר וטרד פנימי בתוך השירות ( אני יסביר לכם בהודעה זו קצת ) 
@@ -40,3 +44,10 @@ BoundedServiceHandlerPost
 לקבל ממנו הודעות או קוד להפעלה
 
 בדוגמא זו אנו נפעיל קוד באמצעות Post 
+
+הערה:
+
+קריאת שירים מתקיה במכשיר והרצת השירים על ידי האפלקציה
+
+כדי שדוגמא זו תעבוד יש לשים שירים בתקיה הנכונה במכשיר
+
